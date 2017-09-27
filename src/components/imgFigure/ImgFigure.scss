@@ -1,6 +1,6 @@
-$imgFigureW: 320px;
-$imgFigureH: 360px;
-$imgFigureP: 40px;
+$imgFigureW: 300px;
+$imgFigureH: 350px;
+$imgFigureP: 20px;
 
 .img-figure {
       position: absolute;
@@ -25,8 +25,8 @@ $imgFigureP: 40px;
       }
 
       img {
-        width: ($imgFigureW - $imgFigureP * 2);
-        height: ($imgFigureW - $imgFigureP * 2);
+        width: (260px);
+        height: (280px);
       }
     }
 

@@ -53,7 +53,6 @@ class AppComponent extends React.Component {
 	}
 
 	center(index) {
-		alert(index)
 		return (
 			() => {
 				this.imgPostion(index)
@@ -74,6 +73,7 @@ class AppComponent extends React.Component {
 
 		// 设置居中图片的位置
 		imgCenter[0].pos = this.positionScope.center;
+		imgCenter[0].pos['zIndex'] = 11;
 		imgCenter[0].click = this.inverse.bind(this)
 
 		// 布局上边图片的数量
